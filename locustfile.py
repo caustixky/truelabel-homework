@@ -33,16 +33,12 @@ class AdaptiveStepShape(LoadTestShape):
     at which it happened. Otherwise we bump the target and loop.
     """
 
-    # START_USERS = 100
-    START_USERS = 200
-    # STEP_INCREASE = 0.05
-    STEP_INCREASE = 0.5
+    START_USERS = 100
+    STEP_INCREASE = 0.05
     MAX_USERS = 2000
 
-    # STABILIZE_SECONDS = 30
-    STABILIZE_SECONDS = 5
-    # MEASURE_SECONDS = 30
-    MEASURE_SECONDS = 20
+    STABILIZE_SECONDS = 30
+    MEASURE_SECONDS = 30
 
     P95_REGRESSION_RATIO = 1.20
     SPAWN_RATE = 100
